@@ -37,3 +37,9 @@
 section{
 	padding-top: 10px;
 }
+
+@media all and (max-width:779px){
+	.affix {
+		display:none;
+	}
+}
