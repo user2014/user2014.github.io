@@ -1,0 +1,39 @@
+.subhead {
+	background-image: url('images/ucla2.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 45px;
+	color: white;
+	text-shadow: 3px 3px 5px black;
+	margin-bottom: 30px;
+}
+
+.subhead h1 {
+	font-size: 60px;
+}
+
+.subhead p {
+	font-size: 24px;
+	font-weight: 300;
+}
+
+#logodiv{
+	margin-bottom: 40px;
+}
+
+.nav li a {
+	color: #003399;
+}
+
+.affix {
+	top: 10px;
+}
+
+#push {
+	height: 1000px;
+
+}
+
+section{
+	padding-top: 10px;
+}
