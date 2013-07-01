@@ -1,3 +1,8 @@
+.thumbnail {
+	float: right;
+	margin: 15px;	
+}
+
 .sidebar {
     float:right;
 }
@@ -42,7 +47,7 @@
 
 }
 
-section{
+section {
 	padding-top: 10px;
 }
 
