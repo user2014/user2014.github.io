@@ -6,6 +6,7 @@
 	color: white;
 	text-shadow: 3px 3px 5px black;
 	margin-bottom: 30px;
+	white-space: nowrap;
 }
 
 .subhead h1 {
@@ -42,4 +43,12 @@ section{
 	.affix {
 		position: static;
 	}
+	.subhead h1 {
+		font-size: 32px;
+	}
+	
+	.subhead p {
+		font-size: 24px;
+		font-weight: 300;
+	}	
 }
