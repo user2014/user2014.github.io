@@ -1,3 +1,7 @@
+.sidebar {
+    float:right;
+}
+
 .subhead {
 	background-image: url('images/ucla2.jpg');
 	background-repeat: no-repeat;
@@ -51,4 +55,11 @@ section{
 		font-size: 24px;
 		font-weight: 300;
 	}	
+}
+
+@media all and (max-width:479px){
+	.subhead {
+		display: none;
+	}
+
 }
