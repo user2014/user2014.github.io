@@ -4,15 +4,12 @@ $(document).ready(function() {
 		$(".usermenu li.active a i").addClass("icon-white")
 	});
 	
-	//scrollTo animation, but not on mobile
-	if(!(/iPhone|iPod|iPad|Android|BlackBerry/).test(navigator.userAgent)){
-		$('.usermenu li a').on('click', function(e) {
-			e.preventDefault();
-			target = this.hash;
-			$.scrollTo(target, 500);
-		});
-	}
-	
+	$('.usermenu li a').on('click', function(e) {
+		e.preventDefault();
+		target = this.hash;
+		$.scrollTo(target, 500);
+	});
+
 	//see https://github.com/twitter/bootstrap/issues/6350
 	$('[data-clampedwidth]').each(function () {
 		var elem = $(this);
