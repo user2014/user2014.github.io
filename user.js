@@ -3,12 +3,24 @@ $(document).ready(function() {
 		$(".usermenu li a i").removeClass("icon-white");
 		$(".usermenu li.active a i").addClass("icon-white")
 	});
-	
+
+	//fancy scrolling animation	
 	$('.usermenu li a').on('click', function(e) {
-		e.preventDefault();
-		target = this.hash;
-		$.scrollTo(target, 500);
-	});
+	   // prevent default anchor click behavior
+	   e.preventDefault();
+
+	   // store hash
+	   var hash = this.hash;
+
+	   // animate
+	   $('html, body').animate({
+	       scrollTop: $(this.hash).offset().top
+	     }, 500, function(){
+	       // when done, add hash to url
+	       // (default click behaviour)
+	       window.location.hash = hash;
+	     });
+	});	
 
 	//see https://github.com/twitter/bootstrap/issues/6350
 	$('[data-clampedwidth]').each(function () {
