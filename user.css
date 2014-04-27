@@ -37,12 +37,6 @@
 	font-weight: 300;
 }
 
-#logodiv{
-	margin-left: 0px;
-	margin-right: 0px; 
-    text-align: center;	
-	margin-bottom: 40px;
-}
 
 .nav li a {
 	color: #003399;
@@ -77,7 +71,12 @@ section {
 	.subhead p {
 		font-size: 24px;
 		font-weight: 300;
-	}	
+	}
+
+	#sponsors li{
+		width: 200px;
+		margin: auto;
+	}
 }
 
 @media all and (max-width:479px){
