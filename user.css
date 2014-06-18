@@ -1,3 +1,19 @@
+.rotate {
+	height: 5em;
+	padding-top: 60px;
+	margin-left: -30px;
+	margin-right: -25px;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+
+.namecol{
+	min-width: 200px;
+}
+
 #footer {
 	 height: 60px;
 	 background-color: #f5f5f5;
