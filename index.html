@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
 
-<!-- 
-	Design by Jeroen Ooms // jeroenooms.github.io 
+<!--
+	Design by Jeroen Ooms // jeroenooms.github.io
 	Source code: https://github.com/user2014/user2014.github.io
-	Reuse under license CC-BY 3.0	
+	Reuse under license CC-BY 3.0
 -->
 
 <head>
@@ -14,13 +14,24 @@
 <title>useR! 2014 Los Angeles</title>
 
 <!-- for social media preview stuff -->
-<link rel="image_src" href="images/useR-large.png"/>  
-<meta name="description" content="The annual useR! international R User conference is the main meeting of the R user and developer community. In 2014, the conference will be held at the campus of the University of California in Los Angeles (UCLA)." /> 
+<link rel="image_src" href="images/useR-large.png"/>
+<meta name="description" content="The annual useR! international R User conference is the main meeting of the R user and developer community. In 2014, the conference will be held at the campus of the University of California in Los Angeles (UCLA)." />
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
 <link href="user.css" rel="stylesheet" media="screen">
+
+<!-- code to make the TalkTable sortable using http://tablesorter.com/docs/ -->
+<!-- <script type="text/javascript" src="tablesorter/jquery-latest.js"></script> -->
+<!-- <script type="text/javascript" src="tablesorter/jquery.tablesorter.js"></script> -->
+<!-- <script type="text/javascript"> -->
+<!-- $(document).ready(function() -->
+<!--     { -->
+<!--         $("#TalkTable").tablesorter(); -->
+<!--     } -->
+<!-- ); -->
+<!-- </script> -->
 
 </head>
 <body data-spy="scroll" data-target=".sidebar" data-offset="50">
@@ -35,26 +46,26 @@
 				</p>
 			</div>
 		</header>
-	
-	
+
+
 		<div class="container">
 			<div class="row">
-	
+
 				<div class="span3 sidebar">
-	
+
 					<div id="logodiv">
 						<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://user2014.stat.ucla.edu" data-via="user2014_ucla" data-hashtags="rstats">Tweet</a>
 						<a href="https://twitter.com/user2014_ucla" class="twitter-follow-button" data-show-count="false">Follow @user2014_ucla</a>
-						<img src="images/useR-middle.png" alt="logo" />						
+						<img src="images/useR-middle.png" alt="logo" />
 					</div>
-	
+
 					<div class="affixdiv" data-spy="affix" data-offset-top="400" data-clampedwidth=".sidebar">
 						<div class="well" style="padding: 8px 0;">
 							<ul class="nav nav-list usermenu">
 								<li class="nav-header">Conference</li>
-								<li class="active"><a href="#latest"><i class="icon-bullhorn  icon-white"></i> Latest News</a></li>							
-								<li><a href="#about"><i class="icon-info-sign"></i> About the Conference</a></li>							
-								<li><a href="#sponsors"><i class="icon-star"></i> Sponsors</a></li>	
+								<li class="active"><a href="#latest"><i class="icon-bullhorn  icon-white"></i> Latest News</a></li>
+								<li><a href="#about"><i class="icon-info-sign"></i> About the Conference</a></li>
+								<li><a href="#sponsors"><i class="icon-star"></i> Sponsors</a></li>
 								<li><a href="#dates"><i class="icon-calendar"></i> Important Dates</a></li>
 								<li><a href="#registration"><i class="icon-th-list"></i> Registration</a></li>
 								<li><a href="#funding"><i class="icon-briefcase"></i> Funding</a></li>
@@ -80,13 +91,13 @@
 							</ul>
 						</div>
 					</div>
-	
+
 				</div>
-	
+
 				<div class="span9 content">
-								
+
 					<section id="latest">
-	
+
 						<div class="page-header">
 							<h1>Latest News</h1>
 						</div>
@@ -99,7 +110,7 @@
 									<i>Conference registration has opened! <a href="https://commerce.cashnet.com/UseRCONFERENCE">Click here</a> to register for the conference and on-campus housing. Tutorials are included in the price of registration this year. For more information, see the <a href="http://user2014.stat.ucla.edu/#registration">registration</a> and <a href="http://user2014.stat.ucla.edu/#lodging">lodging</a> sections below.</i>
 								</p>
 							</div>
-						</div>	
+						</div>
 
 
 						<div class="media">
@@ -110,7 +121,7 @@
 									<i>The deadline to submit abstracts for poster sessions and regular talks has passed and submissions are now closed. <span class="text-error">Update (May 1):</span> The abstract notifications were mailed out today. If you submitted an abstract but did not receive a notification, please contact Joshua at <code>jwiley.psych@gmail.com</code>.</i>
 								</p>
 							</div>
-						</div>	
+						</div>
 
 						<!--<
 						div class="media">
@@ -128,58 +139,58 @@
 							<a class="pull-left" href="#"> <img class="media-object" src="images/news.png" alt="newsicon"> </a>
 							<div class="media-body">
 								<h4 class="media-heading">Confirmed Speakers</h4>
-						
+
 								<p>
 									<i>We are excited to announce some of the invited speakers that have already confirmed to speak at useR! 2014 in Los Angeles!
-									The line-up includes: 
-									<a href="http://www-stat.stanford.edu/~jmc4/">John Chambers</a> (S, R), 
-									<a href="http://www.ddiez.com/">David Diez</a> (OpenIntro), 
+									The line-up includes:
+									<a href="http://www-stat.stanford.edu/~jmc4/">John Chambers</a> (S, R),
+									<a href="http://www.ddiez.com/">David Diez</a> (OpenIntro),
 									<a href="http://dirk.eddelbuettel.com/">Dirk Eddelbuettel</a> (Rcpp, Debian),
 									<a href="http://gifi.stat.ucla.edu/">Jan de Leeuw</a> (Journal of Statistical Software),
-									<a href="http://stat.ethz.ch/people/maechler">Martin Mächler</a> (R Core, R Foundation),						
+									<a href="http://stat.ethz.ch/people/maechler">Martin Mächler</a> (R Core, R Foundation),
 									<a href="http://www.nioz.nl/staff-detail?id=784400">Karline Soetaert</a> (Solving Differential Equations in R)</i>
 								</p>
 							</div>
 						</div>
-						
+
 						<div class="media">
 							<a class="pull-left" href="#"> <img class="media-object" src="images/news.png" alt="newsicon"> </a>
 							<div class="media-body">
 								<h4 class="media-heading">Sponsor Invitation</h4>
-						
+
 								<p>
-									<i>Financial sponsorship of the conference is a	way to give back to the R community. In so doing, your 
+									<i>Financial sponsorship of the conference is a	way to give back to the R community. In so doing, your
 									organization will gain visibility among prominent statisticians and in the large R user base. Funds from
 									sponsors will be used to enhance the conference, e.g. to provide scholarships for participants who would
-									otherwise be unable to attend, to help fund the social aspects of the conference, etc.</i> 
+									otherwise be unable to attend, to help fund the social aspects of the conference, etc.</i>
 								</p><p>
-									
-									<i>To learn about how to become a sponsor, types of sponsorship, etc, download the sponsor brochure: 
-									[<a href="files/useR2014_sponsors.pdf">pdf</a>] 
-									[<a href="files/useR2014_sponsors.odt">odt</a>]	</i> 			
+
+									<i>To learn about how to become a sponsor, types of sponsorship, etc, download the sponsor brochure:
+									[<a href="files/useR2014_sponsors.pdf">pdf</a>]
+									[<a href="files/useR2014_sponsors.odt">odt</a>]	</i>
 								</p>
 							</div>
-						</div>					
-							
-											
-						
-	
-					</section>			
-	
+						</div>
+
+
+
+
+					</section>
+
 					<section id="about">
-	
+
 						<div class="page-header">
 							<h1>About the Conference</h1>
 						</div>
-	
+
 						<p>
 							The annual <a href="http://www.r-project.org/conferences.html">useR!</a> international R User conference is the main meeting of the <a
 								href="http://www.r-project.org/">R</a> user and developer community. Its program consists of both invited and user-contributed
 							presentations:
 						</p>
-	
-	
-	
+
+
+
 						<ul>
 							<li>The invited keynote lectures cover a broad spectrum of topics ranging from technical and R-related computing issues to
 								general statistical topics of current interest.</li>
@@ -188,17 +199,17 @@
 								"free" discussion format. Such a discussion format not only provides a forum for software demonstrations and detailed discussions but
 								also supports the self-organization of the respective communities.</li>
 						</ul>
-						
+
 						<div class="thumbnail">
 							<img class="img-rounded" src="images/bill.jpg" alt="bill venables" />
-						</div>					
-	
+						</div>
+
 						<p>
 							In 2014, the conference will be held at the campus of the University of California in Los Angeles (<a href="http://www.ucla.edu/">UCLA</a>).
 							The conference is being organized with support from the <a href="http://statistics.ucla.edu">UCLA Statistics Department</a>, the <a
 								href="http://www.foastat.org/">Foundation for Open Access Statistics</a> and the <a href="http://www.meetup.com/LA-RUG">Los Angeles R user group</a>. The organizing committee consists of:
 						</p>
-	
+
 						<ul>
 							<li>Chair: <a href="http://neurosurgery.ucla.edu/body.cfm?id=661">David McArthur</a> – UCLA School of Medicine.</li>
 							<li><a href="http://www.cse.ucla.edu/about/staff.php?action=search&query=Dai">Yunyun Dai</a> – UCLA School of Education</li>
@@ -210,7 +221,7 @@
 							<li><a href="http://www.anamnetic.com/">Tim Triche</a> – University of Southern California</li>
 							<li><a href="http://joshuawiley.com/">Joshua Wiley</a> – UCLA Department of Psychology</li>
 						</ul>
-						
+
 						<p>Questions? Kindly contact <a href="mailto:dmca@ucla.edu?subject=userR!2014 question"><code>dmca [at] ucla.edu</code></a> using the subject heading <code>userR!2014 question</code>. (Use of a different subject heading in your email may delay our response).</p>
 							<p>The program committee consists of:</p>
 
@@ -223,18 +234,18 @@
 						    <li><a href="http://people.math.aau.dk/~sorenh/">Søren Højsgaard</a></li>
 						    <li><a href="http://www.meetup.com/R-Users/members/7965896/">Nicholas Lewin-Koh</a></li>
 						    <li><a href="http://www.statistik.tu-dortmund.de/ligges0.html">Uwe Ligges</a></li>
-						    <li><a href="http://www.heatherturner.net/">Heather Turner</a></li>						    
+						    <li><a href="http://www.heatherturner.net/">Heather Turner</a></li>
 						    <li><a href="http://eeecon.uibk.ac.at/~zeileis/">Achim Zeileis</a></li>
 						</ul>
 					</section>
 
 
 					<section id="sponsors">
-						
+
 						<div class="page-header">
 							<h1>Sponsors</h1>
 						</div>
-						
+
 						<h3>Platinum</h3>
 						<a href="http://www.rstudio.org"><img src="images/RStudioLogo200.png" style="margin: 10px; height:70px;"></a>
 						<a href="http://www.revolutionanalytics.com"><img src="images/Revolution-200x15.png" style="margin: 10px; height:110px;"></a>
@@ -263,15 +274,15 @@
 						<a href="http://www.wiley.com"><img src="images/wiley2013.png" style="margin: 10px; height:60px;"></a>
 						<a href="http://www.springer.com"><img src="images/Springer.png" style="margin: 10px; height:40px;"></a>
 
-					</section>					
-	
-	
+					</section>
+
+
 					<section id="dates">
-	
+
 						<div class="page-header">
 							<h1>Important Dates</h1>
 						</div>
-	
+
 						<table class="table table-hover">
 						<thead>
 							<tr><th>Event</th><th>Date</th></tr>
@@ -288,7 +299,7 @@
 							<tr><td>Conference End</td><td>2014-07-03</td></tr>
 						</tbody>
 						</table>
-	
+
 					</section>
 
 
@@ -296,7 +307,7 @@
 
 
 					<section id="registration">
-	
+
 						<div class="page-header">
 							<h1>Registration</h1>
 						</div>
@@ -330,25 +341,25 @@
 						<h4>Paying by business check</h4>
 
 						<p>If your institution or business permits you to pay using their funds, then please send the institutional or business check promptly to ensure that your registration is complete. If our office does not receive a valid check for payment in full before 6/1/14 or if it is dishonored in any way then your registration will be canceled without notice. Full payment of all charges is required; payment of some charges but not others using this method is not permitted. The check must be made out in US dollars only to "Regents of the University of California" with memo field stating "UseR!2014 registration for __your name___" and receipt number. The mailing address is UCLA Department of Statistics attn. J Valenzuela, Box 951554, 8125 Math Sciences Building, Los Angeles, CA 90095-1554 USA. By selecting the "Pay with institutional check" option you are agreeing to follow the above requirements in full.</p>
-	
+
 					</section>
-	
-	
+
+
 					<section id="funding">
-	
+
 						<div class="page-header">
 							<h1>Funding</h1>
 						</div>
-	
+
 					</section>
-	
-	
+
+
 					<section id="invited">
 						<div class="page-header">
 							<h1>Invited Talks</h1>
 						</div>
 					</section>
-	
+
 					<section id="tutorials">
 						<div class="page-header">
 							<h1>Tutorials</h1>
@@ -389,7 +400,7 @@
 						  </tbody>
 						</table>
 					</section>
-	
+
 					<section id="schedule">
 						<div class="page-header">
 							<h1>Schedule</h1>
@@ -447,13 +458,212 @@
 								<tr> <td>12:30 – 12:50</td><td>Closing Remarks</td> </tr>
 						  </tbody>
 						</table>
+
+						<p>Below is a summary followed by the full list of contributed talks by session (1 to 6), room, and track.</p>
+
+
+<TABLE class="table table-hover">
+  <thead>
+    <TR>
+      <TH>Track</TH>
+      <TH>Session 1</TH>
+      <TH>Session 2</TH>
+      <TH>Session 3</TH>
+      <TH>Session 4</TH>
+      <TH>Session 5</TH>
+      <TH>Session 6</TH>
+      <TH>Room</TH>
+    </TR>
+  </thead>
+  <tbody>
+    <TR>
+      <TH>Kaleidoscope</TH>
+      <TD>Graphics</TD>
+      <TD>Web/Integration</TD>
+      <TD>Data Manipulation</TD>
+      <TD>Performance</TD>
+      <TD>Development/Quality</TD>
+      <TD>Reporting</TD>
+      <TD>Palisades Conference Room</TD>
+    </TR>
+    <TR>
+      <TH>Science</TH>
+      <TD>Bayesian</TD>
+      <TD>Visualization</TD>
+      <TD>Modeling</TD>
+      <TD>S4: </TD>
+      <TD>Biology/Ecology</TD>
+      <TD>Biostatistics</TD>
+      <TD>Malibu Room</TD>
+    </TR>
+    <TR>
+      <TH>Business</TH>
+      <TD>Finance/Portfolio</TD>
+      <TD>Finance/Tools</TD>
+      <TD>Web Apps</TD>
+      <TD>ML/Predictive Modeling</TD>
+      <TD>Real Time/Analysis as a Service</TD>
+      <TD>Business Applications</TD>
+      <TD>Venice Room</TD>
+    </TR>
+    <TR>
+      <TH>Focus 1</TH>
+      <TD>Graphics</TD>
+      <TD>Teaching</TD>
+      <TD>HPC</TD>
+      <TD>Programming</TD>
+      <TD>Testing</TD>
+      <TD>Machine Learning</TD>
+      <TD>Hermosa Room</TD>
+    </TR>
+    <TR>
+      <TH>Focus 2</TH>
+      <TD>Web Based Applications</TD>
+      <TD>Story</TD>
+      <TD>Time Series</TD>
+      <TD>Workflow/Reproducible Research</TD>
+      <TD>HPC/Machine Learning</TD>
+      <TD>Spatial/Text</TD>
+      <TD>Lounge</TD>
+    </TR>
+  </tbody>
+</TABLE>
+
+<h3>Contributed Talk Schedule</h3>
+
+<!-- <TABLE  id="TalkTable" class="tablesorter"> -->
+<TABLE class="table table-hover">
+
+  <thead>
+  <TR> <TH> First Name </TH> <TH> Last Name </TH> <TH> Title </TH> <TH> Track </TH> <TH> Room </TH> <TH> Session </TH> <TH> Talk </TH>  </TR>
+  </thead>
+  <tbody>
+  <TR> <TD> Winston </TD> <TD> Chang </TD> <TD> ggvis: Interactive graphics in R </TD> <TD> Kaleidoscope </TD> <TD> Palisades </TD> <TD>   1 </TD> <TD>   1 </TD> </TR>
+  <TR> <TD> Ramnath </TD> <TD> Vaidyanathan </TD> <TD> Interactive Visualizations from R </TD> <TD> Kaleidoscope </TD> <TD> Palisades </TD> <TD>   1 </TD> <TD>   2 </TD> </TR>
+  <TR> <TD> Chris </TD> <TD> Parmer </TD> <TD> Plotly: Collaborative R Plotting </TD> <TD> Kaleidoscope </TD> <TD> Palisades </TD> <TD>   1 </TD> <TD>   3 </TD> </TR>
+  <TR> <TD> Ganesh </TD> <TD> Subramaniam </TD> <TD> iwplot: An R Package for Creating web Based Interactive Graphics for Big Data </TD> <TD> Kaleidoscope </TD> <TD> Palisades </TD> <TD>   1 </TD> <TD>   4 </TD> </TR>
+  <TR> <TD> Gordon </TD> <TD> Woodhull </TD> <TD> RCloud - Integrating Exploratory Visualization, Analysis and Deployment </TD> <TD> Kaleidoscope </TD> <TD> Palisades </TD> <TD>   2 </TD> <TD>   1 </TD> </TR>
+  <TR> <TD> Jeroen </TD> <TD> Ooms </TD> <TD> The OpenCPU system: towards a universal interface for scientific computing </TD> <TD> Kaleidoscope </TD> <TD> Palisades </TD> <TD>   2 </TD> <TD>   2 </TD> </TR>
+  <TR> <TD> Joe </TD> <TD> Cheng </TD> <TD> Shiny: R made interactive </TD> <TD> Kaleidoscope </TD> <TD> Palisades </TD> <TD>   2 </TD> <TD>   3 </TD> </TR>
+  <TR> <TD> Karthik </TD> <TD> Ram </TD> <TD> Fostering the next generation of open science with R </TD> <TD> Kaleidoscope </TD> <TD> Palisades </TD> <TD>   2 </TD> <TD>   4 </TD> </TR>
+  <TR> <TD> Hadley </TD> <TD> Wickham </TD> <TD> dplyr: a grammar of data manipulation </TD> <TD> Kaleidoscope </TD> <TD> Palisades </TD> <TD>   3 </TD> <TD>   1 </TD> </TR>
+  <TR> <TD> Matt </TD> <TD> Dowle </TD> <TD> data.table : fast and flexible data manipulation </TD> <TD> Kaleidoscope </TD> <TD> Palisades </TD> <TD>   3 </TD> <TD>   2 </TD> </TR>
+  <TR> <TD> Antonio </TD> <TD> Piccolboni </TD> <TD> Plyrmr: a data manipulation DSL for big data </TD> <TD> Kaleidoscope </TD> <TD> Palisades </TD> <TD>   3 </TD> <TD>   3 </TD> </TR>
+  <TR> <TD> Helena </TD> <TD> Kotthaus </TD> <TD> Performance Analysis for R: Towards a Faster R Interpreter </TD> <TD> Kaleidoscope </TD> <TD> Palisades </TD> <TD>   3 </TD> <TD>   4 </TD> </TR>
+  <TR> <TD> Thomas </TD> <TD> Fuchs </TD> <TD> R in the Midst of Exploding Stars: Distributed, Time-Domain Transient Classification </TD> <TD> Kaleidoscope </TD> <TD> Palisades </TD> <TD>   4 </TD> <TD>   1 </TD> </TR>
+  <TR> <TD> Norm </TD> <TD> Matloff </TD> <TD> An R Package for Parallel Matrix Powers </TD> <TD> Kaleidoscope </TD> <TD> Palisades </TD> <TD>   4 </TD> <TD>   2 </TD> </TR>
+  <TR> <TD> Joseph </TD> <TD> Rickert </TD> <TD> Generalized Linear Models on Large Data Sets </TD> <TD> Kaleidoscope </TD> <TD> Palisades </TD> <TD>   4 </TD> <TD>   3 </TD> </TR>
+  <TR> <TD> Max </TD> <TD> Kuhn </TD> <TD> Adaptive Resampling in a Parallel World </TD> <TD> Kaleidoscope </TD> <TD> Palisades </TD> <TD>   4 </TD> <TD>   4 </TD> </TR>
+  <TR> <TD> David </TD> <TD> Smith </TD> <TD> R and Reproducibility: a Proposal </TD> <TD> Kaleidoscope </TD> <TD> Palisades </TD> <TD>   5 </TD> <TD>   1 </TD> </TR>
+  <TR> <TD> Jonathan </TD> <TD> McPherson </TD> <TD> Talk: Debugging in R </TD> <TD> Kaleidoscope </TD> <TD> Palisades </TD> <TD>   5 </TD> <TD>   2 </TD> </TR>
+  <TR> <TD> Aimee </TD> <TD> Gott </TD> <TD> This code is a complete hack, may or may not work, etc.. - The Challenges of Validating R </TD> <TD> Kaleidoscope </TD> <TD> Palisades </TD> <TD>   5 </TD> <TD>   3 </TD> </TR>
+  <TR> <TD> Tim </TD> <TD> Hesterberg </TD> <TD> RLint: Reformatting R Code to Follow the Google Style Guide </TD> <TD> Kaleidoscope </TD> <TD> Palisades </TD> <TD>   5 </TD> <TD>   4 </TD> </TR>
+  <TR> <TD> J.J. </TD> <TD> Allaire </TD> <TD> The Next Generation of R Markdown </TD> <TD> Kaleidoscope </TD> <TD> Palisades </TD> <TD>   6 </TD> <TD>   1 </TD> </TR>
+  <TR> <TD> Gergely </TD> <TD> Daroczi </TD> <TD> rapport: a report templating system in R </TD> <TD> Kaleidoscope </TD> <TD> Palisades </TD> <TD>   6 </TD> <TD>   2 </TD> </TR>
+  <TR> <TD> Yihui </TD> <TD> Xie </TD> <TD> Knitr Ninja </TD> <TD> Kaleidoscope </TD> <TD> Palisades </TD> <TD>   6 </TD> <TD>   3 </TD> </TR>
+  <TR> <TD> Garrett </TD> <TD> Grolemund </TD> <TD> Embedding Shiny Apps in R Markdown documents </TD> <TD> Kaleidoscope </TD> <TD> Palisades </TD> <TD>   6 </TD> <TD>   4 </TD> </TR>
+  <TR> <TD> Roger </TD> <TD> Bivand </TD> <TD> Approximate Bayesian Inference for Spatial Econometrics with R-INLA </TD> <TD> Science </TD> <TD> Malibu </TD> <TD>   1 </TD> <TD>   1 </TD> </TR>
+  <TR> <TD> Thomas </TD> <TD> Jagger </TD> <TD> Integrating R-INLA with R Spatial Packages and ggplot </TD> <TD> Science </TD> <TD> Malibu </TD> <TD>   1 </TD> <TD>   2 </TD> </TR>
+  <TR> <TD> Robert </TD> <TD> Zinkov </TD> <TD> Probabilistic Programming in R with Bruno </TD> <TD> Science </TD> <TD> Malibu </TD> <TD>   1 </TD> <TD>   3 </TD> </TR>
+  <TR> <TD> Christopher </TD> <TD> Paciorek </TD> <TD> Beyond the black box: Flexible programming of hierarchical modeling algorithms for BUGS-compatible models using NIMBLE </TD> <TD> Science </TD> <TD> Malibu </TD> <TD>   1 </TD> <TD>   4 </TD> </TR>
+  <TR> <TD> Tracy </TD> <TD> Nance </TD> <TD> Visualizing Diseased Transcriptomes with R </TD> <TD> Science </TD> <TD> Malibu </TD> <TD>   2 </TD> <TD>   1 </TD> </TR>
+  <TR> <TD> Tal </TD> <TD> Galili </TD> <TD> dendextend: an R package for easier manipulation and visualization of dendrograms </TD> <TD> Science </TD> <TD> Malibu </TD> <TD>   2 </TD> <TD>   2 </TD> </TR>
+  <TR> <TD> Yuna </TD> <TD> Blum </TD> <TD> The R package FANet: sparse Factor Analysis model for high dimensional gene co-expression Networks </TD> <TD> Science </TD> <TD> Malibu </TD> <TD>   2 </TD> <TD>   3 </TD> </TR>
+  <TR> <TD> Vik </TD> <TD> Gopal </TD> <TD> popKorn: An R package for inference on selected populations </TD> <TD> Science </TD> <TD> Malibu </TD> <TD>   2 </TD> <TD>   4 </TD> </TR>
+  <TR> <TD> Andreas </TD> <TD> Alfons </TD> <TD> Robust model selection: New developments in the R package robustHD </TD> <TD> Science </TD> <TD> Malibu </TD> <TD>   3 </TD> <TD>   1 </TD> </TR>
+  <TR> <TD> John </TD> <TD> Fox </TD> <TD> Visualizing Lack of Fit in Complex Regression Models: Adding Partial Residuals to Effect Displays </TD> <TD> Science </TD> <TD> Malibu </TD> <TD>   3 </TD> <TD>   2 </TD> </TR>
+  <TR> <TD> Norm </TD> <TD> Matloff </TD> <TD> Regression Fit Diagnostics Using freqparcoord </TD> <TD> Science </TD> <TD> Malibu </TD> <TD>   3 </TD> <TD>   3 </TD> </TR>
+  <TR> <TD> Katrin </TD> <TD> Grimm </TD> <TD> Scagnostics </TD> <TD> Science </TD> <TD> Malibu </TD> <TD>   3 </TD> <TD>   4 </TD> </TR>
+  <TR> <TD> Yukiko </TD> <TD> Kurihara </TD> <TD> Selection Effects of Common Variables on Statistical Matching </TD> <TD> Science </TD> <TD> Malibu </TD> <TD>   4 </TD> <TD>   1 </TD> </TR>
+  <TR> <TD> Matthias </TD> <TD> Templ </TD> <TD> Imputation of Missing Values with the R Package VIM </TD> <TD> Science </TD> <TD> Malibu </TD> <TD>   4 </TD> <TD>   2 </TD> </TR>
+  <TR> <TD> Jason </TD> <TD> Bryer </TD> <TD> PSAboot: An R Package for Bootstrapping Propensity Score Analysis </TD> <TD> Science </TD> <TD> Malibu </TD> <TD>   4 </TD> <TD>   3 </TD> </TR>
+  <TR> <TD> Patrick </TD> <TD> Mair </TD> <TD> Permutation Tests in Multidimensional Scaling </TD> <TD> Science </TD> <TD> Malibu </TD> <TD>   4 </TD> <TD>   4 </TD> </TR>
+  <TR> <TD> Henry </TD> <TD> Bongiovi </TD> <TD> Simulating Influenza Transmission with Real Network Data </TD> <TD> Science </TD> <TD> Malibu </TD> <TD>   5 </TD> <TD>   1 </TD> </TR>
+  <TR> <TD> Benjamin </TD> <TD> Nutter </TD> <TD> Enhancing Medical Reporting by Combining Electronic Health Records with REDCap: Applications of the REDCap API </TD> <TD> Science </TD> <TD> Malibu </TD> <TD>   5 </TD> <TD>   2 </TD> </TR>
+  <TR> <TD> Paul </TD> <TD> Schuette </TD> <TD> Simulations for regulatory decision making: How many simulations do we need to run? </TD> <TD> Science </TD> <TD> Malibu </TD> <TD>   5 </TD> <TD>   3 </TD> </TR>
+  <TR> <TD> A. Jonathan R. </TD> <TD> Godfrey </TD> <TD> Monitoring Patients with Ongoing Reduced Kidney Function </TD> <TD> Science </TD> <TD> Malibu </TD> <TD>   5 </TD> <TD>   4 </TD> </TR>
+  <TR> <TD> Luca </TD> <TD> Tardella </TD> <TD> BBRecapture for capture-recapture data modelling with behavioural effects </TD> <TD> Science </TD> <TD> Malibu </TD> <TD>   6 </TD> <TD>   1 </TD> </TR>
+  <TR> <TD> John </TD> <TD> Ehrlinger </TD> <TD> Visually Exploring Random Forests with ggRandomForests </TD> <TD> Science </TD> <TD> Malibu </TD> <TD>   6 </TD> <TD>   2 </TD> </TR>
+  <TR> <TD> Denes </TD> <TD> Toth </TD> <TD> eegR: an R package to analyze electrophysiological (EEG) signals </TD> <TD> Science </TD> <TD> Malibu </TD> <TD>   6 </TD> <TD>   3 </TD> </TR>
+  <TR> <TD> David </TD> <TD> Causeur </TD> <TD> ERP: a R package for Event-Related Potentials data analysis </TD> <TD> Science </TD> <TD> Malibu </TD> <TD>   6 </TD> <TD>   4 </TD> </TR>
+  <TR> <TD> Giuseppe </TD> <TD> Bruno </TD> <TD> Pricing Credit Derivatives with R </TD> <TD> Business </TD> <TD> Venice </TD> <TD>   1 </TD> <TD>   1 </TD> </TR>
+  <TR> <TD> Ting Kam Leonard </TD> <TD> Wong </TD> <TD> A new framework for portfolio management </TD> <TD> Business </TD> <TD> Venice </TD> <TD>   1 </TD> <TD>   2 </TD> </TR>
+  <TR> <TD> Tobias </TD> <TD> Setz </TD> <TD> BCP Stability Analytics and Markov Chain Monte Carlo </TD> <TD> Business </TD> <TD> Venice </TD> <TD>   1 </TD> <TD>   3 </TD> </TR>
+  <TR> <TD> Tobias </TD> <TD> Setz </TD> <TD> Don't Optimize! - Portfolios with Bayesian Change Point Analytics </TD> <TD> Business </TD> <TD> Venice </TD> <TD>   1 </TD> <TD>   4 </TD> </TR>
+  <TR> <TD> Kam </TD> <TD> Hamidieh </TD> <TD> Recovering Risk Neutral Density from Options Using RND Package </TD> <TD> Business </TD> <TD> Venice </TD> <TD>   2 </TD> <TD>   1 </TD> </TR>
+  <TR> <TD> David </TD> <TD> Ardia </TD> <TD> The peer performance of hedge funds </TD> <TD> Business </TD> <TD> Venice </TD> <TD>   2 </TD> <TD>   2 </TD> </TR>
+  <TR> <TD> Ken </TD> <TD> Yale </TD> <TD> R For Improving Consumer Engagement and Health Outcomes </TD> <TD> Business </TD> <TD> Venice </TD> <TD>   2 </TD> <TD>   3 </TD> </TR>
+  <TR> <TD> Fumiyo </TD> <TD> Kondo </TD> <TD> Hierarchical Bayesian Estimation - Consumers’ Change in Recognition and Behavior toward Advertisements by Elaboration Likelihood Model </TD> <TD> Business </TD> <TD> Venice </TD> <TD>   2 </TD> <TD>   4 </TD> </TR>
+
+  <TR> <TD> Mark </TD> <TD> Hornick </TD> <TD> Massive Predictive Modeling </TD> <TD> Business </TD> <TD> Venice </TD> <TD>   3 </TD> <TD>   1 </TD> </TR>
+  <TR> <TD> Mark </TD> <TD> Seligman </TD> <TD> The Arborist: a Scalable Decision Tree Implementation </TD> <TD> Business </TD> <TD> Venice </TD> <TD>   3 </TD> <TD>   2 </TD> </TR>
+  <TR> <TD> Tridivesh </TD> <TD> Jena </TD> <TD> Representing Model Ensembles in PMML </TD> <TD> Business </TD> <TD> Venice </TD> <TD>   3 </TD> <TD>   3 </TD> </TR>
+  <TR> <TD> Hai </TD> <TD> Qian </TD> <TD> PivotalR: A Package for Machine Learning on Big Data </TD> <TD> Business </TD> <TD> Venice </TD> <TD>   3 </TD> <TD>   4 </TD> </TR>
+  <TR> <TD> Dan </TD> <TD> Putler </TD> <TD> Creating R-Based Web Browser Applications Using Alteryx </TD> <TD> Business </TD> <TD> Venice </TD> <TD>   4 </TD> <TD>   1 </TD> </TR>
+  <TR> <TD> Aaron </TD> <TD> Horowitz </TD> <TD> Rapid Prototyping With R/Shiny at McKinsey : A New Way of Delivering Value for Our Clients </TD> <TD> Business </TD> <TD> Venice </TD> <TD>   4 </TD> <TD>   2 </TD> </TR>
+  <TR> <TD> Bhaskar </TD> <TD> Rao </TD> <TD> ETD: A Design Pattern for Building Web-Based Analytics Dashboards in R </TD> <TD> Business </TD> <TD> Venice </TD> <TD>   4 </TD> <TD>   3 </TD> </TR>
+  <TR> <TD> NILESH </TD> <TD> SHAH </TD> <TD> A real time, responsive Quantitative trading analysis Mobile App using r </TD> <TD> Business </TD> <TD> Venice </TD> <TD>   4 </TD> <TD>   4 </TD> </TR>
+  <TR> <TD> Louis </TD> <TD> Bajuk-Yorgan </TD> <TD> Deploying R into Business Intelligence and Real-time Applications </TD> <TD> Business </TD> <TD> Venice </TD> <TD>   5 </TD> <TD>   1 </TD> </TR>
+  <TR> <TD> Nick </TD> <TD> Elprin </TD> <TD> Domino: A Platform-as-a-Service for Industrialized Data Analysis </TD> <TD> Business </TD> <TD> Venice </TD> <TD>   5 </TD> <TD>   2 </TD> </TR>
+  <TR> <TD> Takekatsu </TD> <TD> Hiramura </TD> <TD> RForcecom: an R package which provides a connection to Force.com and Salesforce.com </TD> <TD> Business </TD> <TD> Venice </TD> <TD>   5 </TD> <TD>   3 </TD> </TR>
+  <TR> <TD> Yeng </TD> <TD> Bun </TD> <TD> Zillow's Big Data and Real-time Services in R </TD> <TD> Business </TD> <TD> Venice </TD> <TD>   5 </TD> <TD>   4 </TD> </TR>
+  <TR> <TD> Pramod </TD> <TD> Kunju </TD> <TD> Insurance industry churn </TD> <TD> Business </TD> <TD> Venice </TD> <TD>   6 </TD> <TD>   1 </TD> </TR>
+  <TR> <TD> Zhengying(Doro) </TD> <TD> Lou </TD> <TD> Automated Business Reporting with R </TD> <TD> Business </TD> <TD> Venice </TD> <TD>   6 </TD> <TD>   2 </TD> </TR>
+  <TR> <TD> Jean-Francois </TD> <TD> COLLIN </TD> <TD> An R tools platform in Cosmetic Industry </TD> <TD> Business </TD> <TD> Venice </TD> <TD>   6 </TD> <TD>   3 </TD> </TR>
+  <TR> <TD> Stephen </TD> <TD> Kaluzny </TD> <TD> Software Testing and the R Language </TD> <TD> Business </TD> <TD> Venice </TD> <TD>   6 </TD> <TD>   4 </TD> </TR>
+  <TR> <TD> Pravin </TD> <TD> Venugopal </TD> <TD> muHVT : Computational Geometry for Visual Analytics </TD> <TD> Focus 1 </TD> <TD> Hermosa </TD> <TD>   1 </TD> <TD>   1 </TD> </TR>
+  <TR> <TD> Kim </TD> <TD> Speerschneider </TD> <TD> Data Warehousing for Interactive Visualization of Student Data </TD> <TD> Focus 1 </TD> <TD> Hermosa </TD> <TD>   1 </TD> <TD>   2 </TD> </TR>
+  <TR> <TD> Alexander </TD> <TD> Pilhofer </TD> <TD> Categorical Data Visualization Reordered </TD> <TD> Focus 1 </TD> <TD> Hermosa </TD> <TD>   1 </TD> <TD>   3 </TD> </TR>
+  <TR> <TD> Heather </TD> <TD> Turner </TD> <TD> Shiny Demos of Statistical Modelling </TD> <TD> Focus 1 </TD> <TD> Hermosa </TD> <TD>   1 </TD> <TD>   4 </TD> </TR>
+  <TR> <TD> Rasmus </TD> <TD> Baath </TD> <TD> Bayesian First Aid: A Package that Implements Bayesian Alternatives to the Classical *.test Functions in R </TD> <TD> Focus 1 </TD> <TD> Hermosa </TD> <TD>   2 </TD> <TD>   1 </TD> </TR>
+  <TR> <TD> Nicholas </TD> <TD> Reich </TD> <TD> statsTeachR.org: A New Framework for Collaborative, Open-Access Curriculum Development </TD> <TD> Focus 1 </TD> <TD> Hermosa </TD> <TD>   2 </TD> <TD>   2 </TD> </TR>
+  <TR> <TD> Jonathan </TD> <TD> Cornelissen </TD> <TD> DataCamp: online interactive learning platform for R </TD> <TD> Focus 1 </TD> <TD> Hermosa </TD> <TD>   2 </TD> <TD>   3 </TD> </TR>
+  <TR> <TD> Amelia </TD> <TD> McNamara </TD> <TD> Teaching R to high school students (and teachers) </TD> <TD> Focus 1 </TD> <TD> Hermosa </TD> <TD>   2 </TD> <TD>   4 </TD> </TR>
+  <TR> <TD> Romain </TD> <TD> Francois </TD> <TD> Rcpp11 </TD> <TD> Focus 1 </TD> <TD> Hermosa </TD> <TD>   3 </TD> <TD>   1 </TD> </TR>
+  <TR> <TD> Dirk </TD> <TD> Eddelbuettel </TD> <TD> RcppZiggurat: Faster Random Normal Draws </TD> <TD> Focus 1 </TD> <TD> Hermosa </TD> <TD>   3 </TD> <TD>   2 </TD> </TR>
+  <TR> <TD> Eilidh </TD> <TD> Troup </TD> <TD> Using SPRINT and parallelised functions for analysis of large data on multi-core Mac and HPC platforms </TD> <TD> Focus 1 </TD> <TD> Hermosa </TD> <TD>   3 </TD> <TD>   3 </TD> </TR>
+  <TR> <TD> Thomas </TD> <TD> Petzoldt </TD> <TD> Swimming in clear lakes: How model coupling with R helps to improve water quality </TD> <TD> Focus 1 </TD> <TD> Hermosa </TD> <TD>   3 </TD> <TD>   4 </TD> </TR>
+  <TR> <TD> John </TD> <TD> Fox </TD> <TD> Version 2 of the R Commander </TD> <TD> Focus 1 </TD> <TD> Hermosa </TD> <TD>   4 </TD> <TD>   1 </TD> </TR>
+  <TR> <TD> Edwin </TD> <TD> de Jonge </TD> <TD> docopt, add beautiful command line options to R scripts </TD> <TD> Focus 1 </TD> <TD> Hermosa </TD> <TD>   4 </TD> <TD>   2 </TD> </TR>
+  <TR> <TD> Colin </TD> <TD> Goodall </TD> <TD> Why I heart (not) parentheses, a journeyman's toolkit path from S to R </TD> <TD> Focus 1 </TD> <TD> Hermosa </TD> <TD>   4 </TD> <TD>   3 </TD> </TR>
+  <TR> <TD> Robert </TD> <TD> Muenchen </TD> <TD> How Popular is R? </TD> <TD> Focus 1 </TD> <TD> Hermosa </TD> <TD>   4 </TD> <TD>   4 </TD> </TR>
+  <TR> <TD> Jean-Michel </TD> <TD> Perraud </TD> <TD> Generating R reference classes in rClr with software reflection </TD> <TD> Focus 1 </TD> <TD> Hermosa </TD> <TD>   5 </TD> <TD>   1 </TD> </TR>
+  <TR> <TD> Malick </TD> <TD> Claes </TD> <TD> Beyond R CMD check: Helping R developers to detect CRAN package conflicts </TD> <TD> Focus 1 </TD> <TD> Hermosa </TD> <TD>   5 </TD> <TD>   2 </TD> </TR>
+  <TR> <TD> Roman </TD> <TD> Tsegelskyi </TD> <TD> TestR: generating unit tests for R internals </TD> <TD> Focus 1 </TD> <TD> Hermosa </TD> <TD>   5 </TD> <TD>   3 </TD> </TR>
+  <TR> <TD> Michel </TD> <TD> Lang </TD> <TD> Package mlr: Machine Learning in R </TD> <TD> Focus 1 </TD> <TD> Hermosa </TD> <TD>   6 </TD> <TD>   1 </TD> </TR>
+  <TR> <TD> Thomas </TD> <TD> Fuchs </TD> <TD> Computer Vision in R: Enabling Flyby Science at Comets and Asteroids </TD> <TD> Focus 1 </TD> <TD> Hermosa </TD> <TD>   6 </TD> <TD>   2 </TD> </TR>
+  <TR> <TD> Emeline </TD> <TD> Perthame </TD> <TD> FADA: an R package for variable selection in supervised classification of strongly dependent data </TD> <TD> Focus 1 </TD> <TD> Hermosa </TD> <TD>   6 </TD> <TD>   3 </TD> </TR>
+  <TR> <TD> Erin </TD> <TD> LeDell </TD> <TD> subsemble: Ensemble learning in R with the Subsemble algorithm </TD> <TD> Focus 1 </TD> <TD> Hermosa </TD> <TD>   6 </TD> <TD>   4 </TD> </TR>
+  <TR> <TD> Erik </TD> <TD> Iverson </TD> <TD> Spyre: Exploratory Data Analysis in the Browser </TD> <TD> Focus 2 </TD> <TD> Lounge </TD> <TD>   1 </TD> <TD>   1 </TD> </TR>
+  <TR> <TD> Oliver </TD> <TD> Bracht </TD> <TD> translateR - A cloud based translator for SPSS and SAS Code </TD> <TD> Focus 2 </TD> <TD> Lounge </TD> <TD>   1 </TD> <TD>   2 </TD> </TR>
+  <TR> <TD> Jose M: </TD> <TD> Benitez </TD> <TD> R as a PaaS cloud computing service for Computational Intelligence tasks </TD> <TD> Focus 2 </TD> <TD> Lounge </TD> <TD>   1 </TD> <TD>   3 </TD> </TR>
+  <TR> <TD> E. James </TD> <TD> Harner </TD> <TD> A Comparison of Rc2, RStudio, and RCloud </TD> <TD> Focus 2 </TD> <TD> Lounge </TD> <TD>   1 </TD> <TD>   4 </TD> </TR>
+  <TR> <TD> Gabriela </TD> <TD> de Queiroz </TD> <TD> Creating a network of women R-users </TD> <TD> Focus 2 </TD> <TD> Lounge </TD> <TD>   2 </TD> <TD>   1 </TD> </TR>
+  <TR> <TD> A. Jonathan R. </TD> <TD> Godfrey </TD> <TD> Practical use of \proglang{R} by blind People </TD> <TD> Focus 2 </TD> <TD> Lounge </TD> <TD>   2 </TD> <TD>   2 </TD> </TR>
+  <TR> <TD> Adi </TD> <TD> Tarca </TD> <TD> A teams story in the IMPROVER Species Translation Challenge </TD> <TD> Focus 2 </TD> <TD> Lounge </TD> <TD>   2 </TD> <TD>   3 </TD> </TR>
+  <TR> <TD> Xavier </TD> <TD> Conort </TD> <TD> 10 R packages to win Kaggle competitions </TD> <TD> Focus 2 </TD> <TD> Lounge </TD> <TD>   2 </TD> <TD>   4 </TD> </TR>
+  <TR> <TD> William </TD> <TD> Dunsmuir </TD> <TD> GLARMA Models and the glarma Package </TD> <TD> Focus 2 </TD> <TD> Lounge </TD> <TD>   3 </TD> <TD>   1 </TD> </TR>
+  <TR> <TD> Tomoaki </TD> <TD> Nakatani </TD> <TD> Handling conditional correlation GARCH models with the ccgarch2 package </TD> <TD> Focus 2 </TD> <TD> Lounge </TD> <TD>   3 </TD> <TD>   2 </TD> </TR>
+  <TR> <TD> Rune </TD> <TD> Juhl </TD> <TD> ctsmr package - Continuous Time Stochastic Modelling in R </TD> <TD> Focus 2 </TD> <TD> Lounge </TD> <TD>   3 </TD> <TD>   3 </TD> </TR>
+  <TR> <TD> Aran </TD> <TD> Lunzer </TD> <TD> LivelyR: Making R charts livelier </TD> <TD> Focus 2 </TD> <TD> Lounge </TD> <TD>   3 </TD> <TD>   4 </TD> </TR>
+  <TR> <TD> Susie </TD> <TD> Jentoft </TD> <TD> Working with R and SAS: Some initial experiences from Statistics Norway </TD> <TD> Focus 2 </TD> <TD> Lounge </TD> <TD>   4 </TD> <TD>   1 </TD> </TR>
+  <TR> <TD> Ryota </TD> <TD> Suzuki </TD> <TD> R AnalyticFlow 3: An Environment for Data Analysis with R </TD> <TD> Focus 2 </TD> <TD> Lounge </TD> <TD>   4 </TD> <TD>   2 </TD> </TR>
+  <TR> <TD> David </TD> <TD> Gohel </TD> <TD> An R package for creating Microsoft Word, Power Point and HTML documents </TD> <TD> Focus 2 </TD> <TD> Lounge </TD> <TD>   4 </TD> <TD>   3 </TD> </TR>
+  <TR> <TD> Stan </TD> <TD> Pounds </TD> <TD> rctrack: An R that Package Automatically Collects and Archives Details for Reproducible Computing </TD> <TD> Focus 2 </TD> <TD> Lounge </TD> <TD>   4 </TD> <TD>   4 </TD> </TR>
+  <TR> <TD> Kazutaka </TD> <TD> Doi </TD> <TD> The "Cutil" Package for GPU-Accelerated Computing </TD> <TD> Focus 2 </TD> <TD> Lounge </TD> <TD>   5 </TD> <TD>   1 </TD> </TR>
+  <TR> <TD> Julian </TD> <TD> Waton </TD> <TD> waveCUDA: an R package for performing CUDA-accelerated wavelet analysis </TD> <TD> Focus 2 </TD> <TD> Lounge </TD> <TD>   5 </TD> <TD>   2 </TD> </TR>
+  <TR> <TD> Talita </TD> <TD> Perciano </TD> <TD> Image analysis and statistics: an introduction using R and RIPA </TD> <TD> Focus 2 </TD> <TD> Lounge </TD> <TD>   5 </TD> <TD>   3 </TD> </TR>
+  <TR> <TD> Rune </TD> <TD> Christensen </TD> <TD> Sensory discrimination testing with the sensR package </TD> <TD> Focus 2 </TD> <TD> Lounge </TD> <TD>   5 </TD> <TD>   4 </TD> </TR>
+  <TR> <TD> Jan-Philipp </TD> <TD> Kolb </TD> <TD> Opportunities through the use of Open-Street-Map data in social sciences </TD> <TD> Focus 2 </TD> <TD> Lounge </TD> <TD>   6 </TD> <TD>   1 </TD> </TR>
+  <TR> <TD> Irene </TD> <TD> Garcia-Checa </TD> <TD> Spatial Tweetstistics with R: Geographical Distribution of English Loan Words in Spanish Tweets </TD> <TD> Focus 2 </TD> <TD> Lounge </TD> <TD>   6 </TD> <TD>   2 </TD> </TR>
+  <TR> <TD> Stefan Th. </TD> <TD> Gries </TD> <TD> Text processing with R: exact.matches and other functions </TD> <TD> Focus 2 </TD> <TD> Lounge </TD> <TD>   6 </TD> <TD>   3 </TD> </TR>
+  <TR> <TD> Mark </TD> <TD> van der Loo </TD> <TD> Approximate text matching with the stringdist package </TD> <TD> Focus 2 </TD> <TD> Lounge </TD> <TD>   6 </TD> <TD>   4 </TD> </TR>
+  </tbody>
+</TABLE>
 					</section>
 
 
 
-
-
-	
 					<section id="social">
 						<div class="page-header">
 							<h1>Social Program</h1>
@@ -524,7 +734,7 @@
 						<p>Conference staff will be delighted to provide campus maps, area maps and advice about attractions in the immediate area and across the greater Los Angeles basin. Our Conference Services desk will be staffed full-time during the Conference, in the main foyer of Carnesale Commons.</p>
 
 					</section>
-	
+
 					<section id="abstractbook">
 						<div class="page-header">
 							<h1>Abstract Book</h1>
@@ -547,7 +757,7 @@
 
 						<p>Each participant can submit only one submission per track, with the submission related specifically to the track topic. Jury decisions will be announced during the Conference, with a top award of $700 USD.</p>
 					</section>
-	
+
 					<section id="ucla">
 						<div class="page-header">
 							<h1>UCLA Campus</h1>
@@ -565,11 +775,11 @@
 						<p>Though weather world-wide has lately been unsettled, we can state that the average probability of precipitation during the Conference is estimated to be a mere 4%. The relative humidity typically is mildly humid, rarely dropping below 48% (comfortable), or exceeding 95% (very humid). Typical wind speeds vary from 0 mph to 14 mph (calm to moderate breeze). </p>
 
 						<h3>Recreation</h3>
-						<p>Included with your paid Conference registration is admission on an individual basis to all UCLA campus recreation facilities. The <a href="http://www.recreation.ucla.edu/jwc">John Wooden Center</a> and <a href="http://www.recreation.ucla.edu/sunsetcanyonrecreationcenter">Sunset Canyon Recreation Center</a> include swimming pools, weight rooms, tennis courts, racquetball courts and handball courts. </p>		
+						<p>Included with your paid Conference registration is admission on an individual basis to all UCLA campus recreation facilities. The <a href="http://www.recreation.ucla.edu/jwc">John Wooden Center</a> and <a href="http://www.recreation.ucla.edu/sunsetcanyonrecreationcenter">Sunset Canyon Recreation Center</a> include swimming pools, weight rooms, tennis courts, racquetball courts and handball courts. </p>
 
 
 						<h3>Parking</h3>
-						<p>Parking permits are required at all times for all vehicles parked on campus. The fee is USD 12.00 per vehicle per day. Vehicles without permits are subject to ticketing and towing. You may purchase parking permits at a campus parking kiosk upon arrival, or at interactive kiosks inside most parking garages. To see all the garages with interactive kiosks, see <a href="http://www.transportation.ucla.edu/portal/pdf/paystationmap.pdf">this map</a>. The main parking kiosk is located on Westwood Blvd near Strathmore Pl., and the closest parking garages to the conference facility are labeled SV and and RC on the main campus map. For more information about parking, see the <a href="https://main.transportation.ucla.edu/campus-parking/visitors">campus parking site</a>.</p>					
+						<p>Parking permits are required at all times for all vehicles parked on campus. The fee is USD 12.00 per vehicle per day. Vehicles without permits are subject to ticketing and towing. You may purchase parking permits at a campus parking kiosk upon arrival, or at interactive kiosks inside most parking garages. To see all the garages with interactive kiosks, see <a href="http://www.transportation.ucla.edu/portal/pdf/paystationmap.pdf">this map</a>. The main parking kiosk is located on Westwood Blvd near Strathmore Pl., and the closest parking garages to the conference facility are labeled SV and and RC on the main campus map. For more information about parking, see the <a href="https://main.transportation.ucla.edu/campus-parking/visitors">campus parking site</a>.</p>
 
 						<h3>Smoking policy</h3>
 						<p>UCLA is a <b>non-smoking environment</b>. Use of cigarettes, cigars, chewing tobacco and all other tobacco products including electronic cigarettes is prohibited on UCLA's campus and at sites owned or leased by the university. "Tobacco use and exposure to secondhand smoke remain the leading causes of preventable disease and death worldwide," the UCLA Chancellor has noted in an open letter about this recent policy change. UCLA joins with hundreds of colleges and universities nationwide that have adopted tobacco-free or smoke-free policies. </p>
@@ -598,7 +808,7 @@
 
 						<p>Acceptable rooms for persons with disabilities will be provided at the same cost as those rooms contracted for by the Conference. To ensure that specific rooms are provided, please send an email before 6/9/14 to  dmca[at]ucla.edu  describing the needs of any participants with disabilities so that UCLA Conference Services can be informed. The Conference Organizers' obligation is to make certain that the program is conducted in such a manner that it is accessible to all persons with disabilities.</p>
 
-						<p>Guests who bring their own computer/laptop can access the Internet directly via the Ethernet port in their sleeping rooms.  In order to access the Internet, guests must have the Ethernet card on their computer software.  If guests do not have their own Ethernet card, they can purchase one through the Covel Business Center located directly across from Sunset Village.   Each sleeping room is equipped with a telephone that allows complimentary access to UCLA campus extensions, with complimentary access to local calls within a certain radius of the campus. To make local and long distance calls, guests must use a prepaid telephone calling card.  Phone cards are available for sale at the front desk of each residential facility</p>						
+						<p>Guests who bring their own computer/laptop can access the Internet directly via the Ethernet port in their sleeping rooms.  In order to access the Internet, guests must have the Ethernet card on their computer software.  If guests do not have their own Ethernet card, they can purchase one through the Covel Business Center located directly across from Sunset Village.   Each sleeping room is equipped with a telephone that allows complimentary access to UCLA campus extensions, with complimentary access to local calls within a certain radius of the campus. To make local and long distance calls, guests must use a prepaid telephone calling card.  Phone cards are available for sale at the front desk of each residential facility</p>
 
 						<p>All accommodations are sold on a “package plan” basis and include rooms, daily meals, and use of UCLA’s Olympic-quality recreational facilities. Meals are all-you-care-to-eat.  The University of California Los Angeles is a smoke-free facility.</p>
 
@@ -615,13 +825,13 @@
 
 							<li><a href="http://www.royalpalacewestwood.com">Royal Palace Westwood</a> Special conference pricing of $159 for single queen bed, $169 for single king bed, $179 for two beds. Free parking, no shuttle service. Distance from conference = 1.4 miles, moderately strenuous for pedestrians due to hills and construction.</li>
 
-						</ul> 
+						</ul>
 
 						<p>If you choose to reserve a room at one of these fine facilities, do call their offices directly as the internet pricing may or may not reflect the discounted conference rate.  All of the above rates are subject to a 14% hotel room tax, as are all hotels and motels in this area.</p>
 
 						<p>Should you choose to stay at one of these establishments or any of several dozen others in the Westwood, Santa Monica, Culver City or Beverly Hills areas which surround the UCLA campus, please exercise care when mapping your overall itinerary as the patterns of traffic in this hilly area can be famously demanding.  This is especially true during rush-hour which happens to extend over a pair of several-hour-long periods each day.  What may appear as an easy jaunt on a map of the area in two dimensions can pose unexpected challenges to the unwary.  The UCLA campus is currently undergoing substantial construction and even the most current maps may not show necessary walking and driving detours.  Do also note that daytime parking at the Conference will be charged, that meals are available for purchase at the Conference Center through their meal ticket system (all meal tickets purchased on an individual basis are subject to the 9% California Sales Tax).  Numerous restaurants can found throughout the region, and many other amenities are available in both the immediate vicinity and across the greater Los Angeles area.  If this is your first visit to Los Angeles, do explore local travel agents in your hometown as well as the internet for further information.</p>
 					</section>
-	
+
 					<section id="travel">
 						<div class="page-header">
 							<h1>Travel Information</h1>
@@ -657,12 +867,12 @@
 		</div>
 		<div id="emptyness"></div>
 	</div>
-	
+
 	<div id="footer">
 		<div class="container">
 			<p class="muted credit">Questions? Kindly contact <a href="mailto:dmca@ucla.edu?subject=userR!2014 question"><code>dmca [at] ucla.edu</code></a> using the subject heading <code>userR!2014 question</code>. (Use of a different subject heading in your email may delay our response)"</p>
 		</div>
-	</div>	
+	</div>
 
 	<script src="jquery/jquery-1.10.1.min.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
@@ -675,10 +885,10 @@
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	
+
 	  ga('create', 'UA-701288-8', 'ucla.edu');
 	  ga('send', 'pageview');
-	
-	</script>	
+
+	</script>
 </body>
 </html>
