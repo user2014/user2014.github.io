@@ -54,8 +54,10 @@
 				<div class="span3 sidebar">
 
 					<div id="logodiv">
+
 						<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://user2014.stat.ucla.edu" data-via="user2014_ucla" data-hashtags="rstats">Tweet</a>
-						<a href="https://twitter.com/user2014_ucla" class="twitter-follow-button" data-show-count="false">Follow @user2014_ucla</a>
+						<a href="https://twitter.com/user2014_ucla" class="twitter-follow-button" data-show-count="false">Follow @user2014_ucla</a>						
+
 						<img src="images/useR-middle.png" alt="logo" />
 					</div>
 
@@ -100,6 +102,16 @@
 						<div class="page-header">
 							<h1>Latest News</h1>
 						</div>
+
+						<div class="media">
+							<a class="pull-left" href="#"> <img class="media-object" src="images/news.png" alt="newsicon"> </a>
+							<div class="media-body">
+								<h4 class="media-heading">Live chat and updates</h4>
+								<p class="lead">
+									<i>Chat and mingle at <a href="" data-toggle="modal" data-target="#twittermodal">#user2014</a> on twitter!</i>
+								</p>
+							</div>
+						</div>						
 
 						<div class="media">
 							<a class="pull-left" href="#"> <img class="media-object" src="images/news.png" alt="newsicon"> </a>
@@ -170,9 +182,6 @@
 								</p>
 							</div>
 						</div>
-
-
-
 
 					</section>
 
@@ -1027,6 +1036,18 @@
 		</div>
 		<div id="emptyness"></div>
 	</div>
+
+<!-- Small modal -->
+<button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Small modal</button>
+
+<div class="modal fade bs-example-modal-sm" id="twittermodal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+		<a class="twitter-timeline" href="https://twitter.com/hashtag/user2014" data-widget-id="481885930052014080">#user2014 Tweets</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div>
+  </div>
+</div>
 
 	<div id="footer">
 		<div class="container">
