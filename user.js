@@ -36,8 +36,10 @@ $(document).ready(function() {
 	});	
 
 	$("#modallink").click(function(e){
-		e.preventDefault();
-		$('#twittermodal').modal('toggle');
-		return false;
+		if(window.innerWidth > 768) {
+			e.preventDefault();
+			$('#twittermodal').modal('toggle');
+			return false;
+		}
 	});
 });
