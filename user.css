@@ -1,3 +1,8 @@
+blockquote{
+	text-align: justify;
+	font-style:italic;
+}
+
 .rotate {
 	height: 5em;
 	padding-top: 60px;
