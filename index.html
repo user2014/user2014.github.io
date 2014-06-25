@@ -108,7 +108,7 @@
 							<div class="media-body">
 								<h4 class="media-heading">Live chat and updates</h4>
 								<p class="lead">
-									<i>Chat and mingle at <a href="" data-toggle="modal" data-target="#twittermodal">#user2014</a> on twitter!</i>
+									<i>Chat and mingle at <a id="modallink" href="https://twitter.com/hashtag/user2014">#user2014</a> on twitter!</i>
 								</p>
 							</div>
 						</div>						
@@ -1035,6 +1035,15 @@
 			</div>
 		</div>
 		<div id="emptyness"></div>
+
+		<!-- twitter modal -->
+		<div class="modal fade hide" id="twittermodal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<a class="twitter-timeline" href="https://twitter.com/hashtag/user2014" data-widget-id="481885930052014080">#user2014 Tweets</a>
+				</div>
+			</div>
+		</div>
 	</div>
 
 	<div id="footer">
@@ -1043,22 +1052,11 @@
 		</div>
 	</div>
 
-	<!-- twitter modal -->
-	<div class="modal fade bs-example-modal-sm" id="twittermodal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-		<div class="modal-dialog modal-sm">
-			<div class="modal-content">
-				<a class="twitter-timeline" href="https://twitter.com/hashtag/user2014" data-widget-id="481885930052014080">#user2014 Tweets</a>
-			</div>
-		</div>
-	</div>
-
 	<script src="jquery/jquery-1.10.1.min.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
 	<script src="user.js"></script>
 
 	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
 	<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

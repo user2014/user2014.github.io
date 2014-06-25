@@ -34,4 +34,10 @@ $(document).ready(function() {
 		resizeFn();
 		$(window).resize(resizeFn);
 	});	
+
+	$("#modallink").click(function(e){
+		e.preventDefault();
+		$('#twittermodal').modal('toggle');
+		return false;
+	});
 });
