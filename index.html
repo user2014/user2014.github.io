@@ -881,29 +881,41 @@
             <a href="http://www.gravity.com"><img src="images/GravityLogo.png" style="margin: 10px; height:90px;"></a></p>
 
             <a id="heR"></a>
-            <h3>heR Panel Discussion and Mixer</h3>
-            Why aren't more women R users?
+			<div id="header">
+			<h1 class="title">A Conversation about R’s Gender Gap: The useR! her Panel</h1>
+			<p>Summary by: Stephanie A. Kovalchik, <a href="mailto:skovalch@rand.org">skovalch@rand.org</a></p>
+			</div>
 
-			<p>The "heR Panel Discussion and Mixer" will be an opportunity for useR! attendees to discuss the shortage of women in the R development community and whether gender makes a difference for software development.</p>
 
-			<p>The panel will be held from 7 to 7:45 pm on July 1 at the Venice Meeting Room at Carnasale Commons. The panel will include a distinguished group of women developers and statisticians who will take questions from the audience on the topic of gender and R development. A social mixer will begin at 6:30 pm, before the panel, and will continue after the panel's conclusion. All conference attendees are welcome. More details and updates about the event can be found at the panel’s <a href="https://github.com/skoval/her2014">github page</a>. </p>
+			<p>At this year’s <a href="http://user2014.stat.ucla.edu">useR! R Conference</a> at the the University of California’s lovely Los Angeles campus, for the first time in the conference’s history, an event was held focusing on the shortage of women in the R community. The <strong>her panel</strong> was organized by myself and Gabriela de Quieroz, <a href="http://www.meetup.com/R-ladies/member/14534094/">founder of R-ladies</a>, and included an impressive group of 5 female developers:</p>
+			
+			<ul>
+			<li><a href="http://www.heatherturner.net">Heather Turner</a>, Statistical consultant and co-author of the <a href="http://www.heatherturner.net/r-packages.html">gnm and gslcca</a> packages</li>
+			<li><a href="http://www.nioz.nl/staff-detail?id=784400">Karline Soetaert</a>, Head of the Department of Ecosystem Studies, Royal Netherlands Institute of Sea Research and author of packages <a href="http://cran.r-project.org/web/packages/deSolve/index.html">deSolve</a> and <a href="http://cran.r-project.org/web/packages/FME/index.html">FME</a></li>
+			<li><a href="http://www.stat.ucla.edu/~amelia.mcnamara/">Amelia Mcnamara</a>, PhD candidate in Statistics, UCLA</li>
+			<li><a href="https://www.linkedin.com/in/shangxuanzhang">Vivian Shangxuan Zhang</a>, CTO/Co-Founder of SupStat Inc, Founder of NYC Data Science Academy</li>
+			<li><a href="http://www.meetup.com/R-ladies/member/14534094/">Gabriela Queiroz</a>, Founder of R-ladies &amp; Data Scientist at Alpine Data Labs</li>
+			</ul>
+		    <center>
+			<img src="images/panel.png" alt="panel" style="margin: 10px; height:350px;" />
+			<p><b>Panel Discussants</b> (From left to right): Karline Soetaert, Heather Turner, Vivian Zhang, Amelia Mcnamara, Gabriela Queiroz</p>
+			</center>
+			<p>The panel discussed a number of challenging questions before a packed audience of male and female useRs. Multiple views from the panel and audience were shared. In case you missed the conversation, I wanted to summarize some of the major take-aways.</p>
+			<p><strong>R’s gender gap</strong>. The panel opened with a discussion of attempts Karline and I independently made to understand the percentage of women who are actively authoring R packages. Our estimates suggest that 10-15% of current packages on CRAN have been written by women (see the Figure below). It was less clear how many women are users of R, and there was a general call for research to get more accurate statistics on R’s gender gap.</p>
+			<center>
+			<img src="images/women_represent.png" alt="women-represent" style="margin: 10px; height:400px;" />
+			</center>
 
-			<p>Confirmed Panelists:<br>
-			<a href="http://www.meetup.com/R-ladies/member/14534094/">Gabriela Queiroz</a>, Founder of R-ladies<br>
-			<a href="http://www.heatherturner.net">Heather Turner</a>, Statistical consultant and co-author of the <a href="http://www.heatherturner.net/r-packages.html">gnm and gslcca</a> packages <br>
-			<a href="http://www.nioz.nl/staff-detail?id=784400">Karline Soetaert</a>, Head of the Department of Ecosystem Studies, Royal Netherlands Institute of Sea Research and author of packages <a href="http://cran.r-project.org/web/packages/deSolve/index.html">deSolve</a> and <a href="http://cran.r-project.org/web/packages/FME/index.html">FME</a> <br>
-			<a href="http://www.stat.ucla.edu/~amelia.mcnamara/">Amelia Mcnamara</a>, PhD candidate in Statistics, UCLA </p>
-			<p>Questions for Panelists:<br>
-			Please share your ideas for discussion topics on the <a href="https://github.com/skoval/her2014/issues">issues page</a>. We will do our best to include all of the suggestions.</p>
-
-			<p>Organizers:<br>
-			If you have questions about the event or ideas for discussion topics, please contact the event organizers.<br>
-			Stephanie Kovalchik, <code>skovalch@rand.org</code><br>
-			Gabriela Queiroz, <code>gabidequeiroz@gmail.com</code></p>
-			<p>Sponsors:<br>
-			We would like to thank our generous sponsors for their support of this event.</p>
-			<a href="http://www.revolutionanalytics.com"><img src="images/Revolution-200x15.png" style="margin: 10px; height:90px;"></a>
-			<a href="http://www.rand.org"><img src="images/rand_logo.png" style="margin: 10px; height:90px;"></a>
+			<p>Tim Hesterberg described a study Google conducted to understand possible barriers to women writing software. The findings were recently published as a report entitled <a href="www.google.com/edu/pdf/women-who-choose-what-really.pdf">Women Who Choose Computer Science–What Really Matters?</a> That report identified 1) social encouragement, 2) self perception, 3) academic exposure, and 4) career perception as the key controllable factors influencing women’s choice of a career in computer science. It would be important to determine if and how these same factors influence women’s contributions to R.</p>
+			<p><strong>Which disciplines populate the R community?</strong> The panel discussed the divide between the representation of women in statistical/biostatistical fields–where women are roughly equally represented in graduate programs, for example–and the R community. However, some argued that many R users come from computer science, business, and the physical sciences, where the gender imbalance may be comparable to the imbalance in the R community. To better understand in which fields female R users may be underrepresented, there is a need for statistics on the age and disciplines of useRs.</p>
+			<p><strong>Community.</strong> All of the panelists agreed that R’s passionate and dedicated community is one of the things they love about the language. Having more efforts to connect with other R users could therefore be an important way to encourage women’s greater involvement in the community.</p>
+			<p><strong>Narrowing the gender gap.</strong> There were two major strategies that the panelists and attendees identified to narrow R’s gender gap. First, the promotion and advertisement of the R software being developed by women. Second, more efforts to get women to develop R packages. Second, the creation of more opportunities for women to learn, use, and develop R. The panelists cited examples like R-ladies and the <a href="http://ropensci.github.io/hackathon/">rOpenSci hackathon’s</a> recruitment efforts as examples of initiatives that have helped women programmers to get more involved in the R community.</p>
+			<p>We hope that the <i>her panel</i> is a catalyst for additional community-wide efforts to encourage more women to contribute high-quality developments in R.</p>
+			<p>Growth on CRAN has historically followed an exponential rate of roughly <a href="http://blog.revolutionanalytics.com/2010/01/r-package-growth.html">40% per year</a>. We think women programmers can do better, and we want to make it our goal to see female-authored packages grow <u><strong>50% by useR! 2015</strong></u>.</p>
+			<p>We would like to thank our generous sponsors for their support of this event.
+			<img src="http://www.revolutionanalytics.com/sites/all/themes/rva_theme/img/logo.png" width="200px" height="100px" />
+			<img src="http://upload.wikimedia.org/wikipedia/en/a/a2/Rand-logo.PNG" width="100px" height="100px" />
+			</p>
 
 						<h3>Dining in Los Angeles</h3>
 						<p>The number of full service restaurants in the Los Angeles area is close to 10,000, representing many hundreds of different food styles. Regrettably, you probably won’t have enough time to savor them all. If you’re interested in sampling something you’ve never had the opportunity to sample before or just missing your favorite dish, it is highly likely that a particular gastronomic fare will be available somewhere in the area. There are many internet resources providing detailed advice on this matter, often with exact menus, prices and photos: search the keyword phrase “Los Angeles restaurant guide” for starters. </p>
